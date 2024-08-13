@@ -1,7 +1,7 @@
 import React from "react";
 import { CiHeart } from "react-icons/ci";
 import { IoEyeSharp } from "react-icons/io5";
-import img1 from "../assets/saller1.png";
+import img1 from "../assets/Saller1.png";
 import img2 from '../assets/saller2.png';
 import img3 from "../assets/saller3.png";
 import img4 from "../assets/saller4.png";

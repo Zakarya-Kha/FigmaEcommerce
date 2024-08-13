@@ -1,8 +1,8 @@
 import React from "react";
-import Feed from "./feed";
 import icon1 from "../assets/icon1.png";
 import icon2 from "../assets/icon2.png";
 import icon3 from "../assets/icon3.png";
+import Feed from "./Feed";
 
 const features = [
   {
@@ -28,7 +28,7 @@ const features = [
 const FeedButtom = () => {
   return (
     <div className="my-8 px-4 md:px-8 lg:px-16 mb-20 mt-20">
-      <Feed />
+      <Feed/>
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-9">
         {features.map((feature) => (
           <div
